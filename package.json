@@ -1,0 +1,13 @@
+{
+  "name": "@ntp/node-crypto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "node --test"
+  },
+  "author": "Naveen Teja Paravada <paravadanaveenteja@gmail.com>",
+  "license": "MIT",
+  "description": "This Node.js module provides encrypt and decrypt functions using AES-192-CBC encryption. The encrypt function derives a key with scrypt, creates a cipher, and returns the encrypted text in hexadecimal format. The decrypt function uses the same key derivation to create a decipher and returns the decrypted text in UTF-8.",
+  "dependencies": {}
+}
