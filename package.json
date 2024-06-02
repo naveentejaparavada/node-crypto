@@ -9,5 +9,18 @@
   "author": "Naveen Teja Paravada <paravadanaveenteja@gmail.com>",
   "license": "MIT",
   "description": "This Node.js module provides encrypt and decrypt functions using AES-192-CBC encryption. The encrypt function derives a key with scrypt, creates a cipher, and returns the encrypted text in hexadecimal format. The decrypt function uses the same key derivation to create a decipher and returns the decrypted text in UTF-8.",
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveentejaparavada/node-crypto.git"
+  },
+  "keywords": [
+    "node",
+    "crypto",
+    "encryption",
+    "decryption"
+  ],
+  "bugs": {
+    "url": "https://github.com/naveentejaparavada/node-crypto/issues"
+  },
+  "homepage": "https://github.com/naveentejaparavada/node-crypto#readme"
 }
